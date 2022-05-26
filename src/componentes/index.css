@@ -1,0 +1,13 @@
+/*Arquivo index que estará vinculado ao arquivo index.jsx*/
+
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");/*Importando fonte online*/
+
+body, html {
+  margin: 0; /*Margem zerada*/
+  padding: 0; /*Padding zerado*/
+  width: 100%; /*Altura 100% da tela*/
+  min-height: 100vh; /*Largura minima de 100vh*/
+  overflow: auto;
+  background-color: rgb(53, 139, 190); /*Definindo cor de fundo*/
+  font-family: sans-serif;
+}

@@ -1,0 +1,27 @@
+.Home {
+    position: relative; /* Posição relativa do elemento */
+    background-image: radial-gradient( /*Definindo uma cor de fundo*/
+      farthest-corner at 40px 40px,
+      #50c5ee 60%,
+      rgba(0, 212, 255, 0.5) 100%
+    );
+
+    min-height: calc(100vh - 60px);/*Altura minima*/
+    margin: 15px; /*Margem*/
+    padding: 15px; /*adicionando padding (espaçamento interno do elemento)*/
+    border-radius: 20px; /*Arredondando os cantos dos elementos*/
+    color: black; /*Cor de texto para os elementos*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /*Adicionando sombra*/
+  }
+
+  .Home__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 350px) {
+    .Home__container {
+      justify-content: unset;
+    }
+  }
