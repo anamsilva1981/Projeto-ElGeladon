@@ -1,4 +1,5 @@
 import "../componentes/PaletaLista.css"
+import '../componentes/mocks/paletas.js'
 
 export const paletas = [
     {

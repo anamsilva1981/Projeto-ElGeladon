@@ -1,9 +1,9 @@
 // Tela principal da aplicação
 
-import "./Home.css";
-import PaletaLista from "./PaletaLista";
-import sacola from "../assets/icons/sacola.svg";
-import logo from "../assets/logo.svg";
+import './Home.css'
+import PaletaLista from './componentes/PaletaLista/PaletaLista';
+import sacola from './assets/icons/sacola.svg'
+import logo from '../../assets/logo.svg'
 
 function Home() {
   return <div className="Home">

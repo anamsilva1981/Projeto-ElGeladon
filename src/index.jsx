@@ -1,7 +1,8 @@
 import React from "react"; //Importando biblioteca React
 import ReactDOM from "react-dom"; // Biblioteca React Dom
-import Home from './componentes/Home';
-import '../src/componentes/index.css';
+import Home from '../src/views/Home/Home'
+import '../src/assets/style/main.css'
+
 
 
 ReactDOM.render(
